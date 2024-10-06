@@ -1,0 +1,129 @@
+
+  .list{
+    background-image: url(./files/list_button.png);
+    font-family: FrizQuadrataTT;  
+    color: rgb(255, 217, 0);
+    height: 58px;
+    width: 273px;
+    text-align: center;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    text-overflow: ellipsis;
+    transition: all 0.1s linear;
+  }
+
+  #gameList{
+    margin-top: 7%;
+    margin-bottom: 7%;
+    margin-left: 10%;
+    
+  }
+
+  @font-face {
+    font-family: 'FrizQuadrataTT'; 
+    src: url('./files/15662_FrizQuadrataTT.ttf'); 
+    
+  }
+
+  #rollDice{
+    background-image: url(./files/RollDice.png);
+    height: 32px;
+    width: 245px;  
+    font-family: FrizQuadrataTT;  
+    color: rgb(245, 241, 14);
+    font-size: larger;
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s linear;
+    border-radius: 6px;
+    border: transparent;
+    opacity: 1;
+  }
+
+  #rollDice:disabled{
+    opacity: 0.3;
+    transition: all 0.5s linear;
+    border-radius: 6px;
+  }
+  
+  .list.active{
+    background-image: url(./files/list_button.png);
+    font-family: FrizQuadrataTT;  
+    color: rgb(245, 241, 14);
+    height: 58px;
+    width: 273px;
+    text-align: center;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    transition: all 0.1s linear;
+  }
+
+  .list.inactive{
+    background-image: url(./files/list_button.png);
+    font-family: FrizQuadrataTT;  
+    color: rgb(95, 95, 95);
+    height: 58px;
+    width: 273px;
+    text-align: center;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    transition: all 0.1s linear;
+  }
+
+  .addGameInput{
+    background-image: url(./files/AddGameInputPicture.png);
+    height: 66px;
+    width: 600px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+
+  #addGame{
+    background-image: url(./files/addButton.png);
+    width: 44px;
+    height: 44px;
+    border-radius: 6px;
+    border: transparent;
+    margin-left: 5px;
+  }
+
+  #removeGame{
+    background-image: url(./files/./RemoveButton.png);
+    width: 44px;
+    height: 44px;
+    border-radius: 6px;
+    border: transparent;
+    margin-left: 5px;
+  }
+
+  #gameInput{
+    background-image: url(./files/InputField.png);
+    width: 460px;
+    height: 44px;
+    border-radius: 6px;
+    border: transparent;
+    color:antiquewhite;
+    font-family: FrizQuadrataTT;  
+    color: rgb(245, 241, 14);
+    font-size: medium;
+    padding-left: 15px;
+  }
+
+  .footer{
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+  }
