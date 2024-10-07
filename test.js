@@ -170,7 +170,7 @@ function refreshListOfGames() {
 }
 
 async function openDoors(){
-  for (let i = 0; i <= 100; i++){
+  for (let i = 0; i <= 80; i++){
     mainBackgroundRightActive.style.transform = `translateX(${i}%)`;
     mainBackgroundLeftActive.style.transform = `translateX(-${i}%)`;
     await delay(20);
