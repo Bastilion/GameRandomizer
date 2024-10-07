@@ -1,26 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="./styles.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="./styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body background="./files/battlenet_background.jpg" style="background-repeat:no-repeat;
-background-attachment: fixed;
-background-position: center;
-background-size: cover;">
-    <div id="number" ></div>
-    <div id="gameList"> </div>
-    <button id="rollDice"> Roll Dice </button>
-    <div class="footer">
-    <div class="addGameInput">
-      <input id="gameInput" maxlength="18"> 
-      <button id="addGame"></button>
-      <button id="removeGame"></button>
-
+  </head>
+  <body>
+    <div id="background">
+      <div id="winnerGame"></div>
+      
+      <div id="gameList"></div>
+      <div id="right_background_picture_inactive"></div>
+      <div id="left_background_picture_inactive"></div>
+      <div id="right_background_picture_active"></div>
+      <div id="left_background_picture_active"></div>
     </div>
-  </div>
-      <script src="./test.js"></script>
-</body>
+
+      <div id="mid_head" class="inactive"></div>
+    </div>
+
+    <button id="rollDice">Roll Dice</button>
+    <button id="restart">Try again?</button>
+    
+    <div id="footer">
+      <div class="addGameInput">
+        <input id="gameInput" maxlength="18" />
+        <button id="addGame"></button>
+        <button id="removeGame"></button>
+      </div>
+    </div>
+
+    <script src="./test.js"></script>
+  </body>
 </html>
