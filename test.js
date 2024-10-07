@@ -27,43 +27,43 @@ let games = [
   },
   {
     name: "World of Tanks",
-    img: "https://worldoftanks.eu/static/6.2.2_9cd574/common/img/wot_artboard.png",
+    img: "https://7themes.su/_ph/28/412543311.jpg",
   },
   {
     name: "World of Warcraft",
-    img: "https://static.wikia.nocookie.net/wowpedia/images/a/aa/WoW_2.0_logo_old.png/revision/latest/scale-to-width-down/1731?cb=20180705205814",
+    img: "https://wallpapers.com/images/hd/world-of-warcraft-1920x1080-d2oib3m87tnra9oo.jpg",
   },
   {
     name: "Valorant",
-    img: "https://upload.wikimedia.org/wikipedia/commons/f/fc/Valorant_logo_-_pink_color_version.svg",
+    img: "https://preview.redd.it/iyaacpwpwfr41.png?auto=webp&s=c56cfe42a050a5a4ab6942eb5c7f9eef6bba65de",
   },
   {
     name: "CS 2",
-    img: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/capsule_616x353.jpg?t=1719426374",
+    img: "https://cdn5.idcgames.com/storage/image/1493/game_home_bg_section_2/default.jpg",
   },
   {
     name: "Arena",
-    img: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2073620/capsule_616x353.jpg?t=1724820322",
+    img: "https://streamhatchet.com/wp-content/uploads/2024/05/1-22.jpg",
   },
   {
     name: "Dota2",
-    img: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/header.jpg?t=1724428927",
+    img: "https://img.goodfon.com/original/1920x1080/6/bb/dota-dota-2-logotip-simvol.jpg",
   },
   {
     name: "League Of Legends",
-    img: "https://i0.wp.com/highschool.latimes.com/wp-content/uploads/2021/09/league-of-legends.jpeg?fit=1607%2C895&ssl=1",
+    img: "https://wallpapers.com/images/featured/1920x1080-league-of-legends-background-m54i08fbn7lnv13f.jpg",
   },
   {
     name: "Among Us",
-    img: "https://static.wikia.nocookie.net/among-us/images/f/fe/Among-us.jpg/revision/latest?cb=20210618140112&path-prefix=ru",
+    img: "https://wallpapercat.com/w/full/7/e/b/1263-1920x1080-desktop-full-hd-among-us-wallpaper-image.jpg",
   },
   {
     name: "StarCraft2",
-    img: "https://bnetcmsus-a.akamaihd.net/cms/blog_header/2g/2G4VZH5TIWJF1602720144046.jpg",
+    img: "https://i.imgur.com/weAptru.jpg",
   },
   {
     name: "Warcraft3",
-    img: "https://www.thumbculture.co.uk/wp-content/uploads/2020/02/Warcraft-III-Reforged-Review-01-Header-1024x576.jpg",
+    img: "https://wow.zamimg.com/uploads/guide/seo/9363.jpg?1577080221",
   },
 ];
 
